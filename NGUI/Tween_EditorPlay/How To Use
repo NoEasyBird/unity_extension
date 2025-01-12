@@ -1,0 +1,9 @@
+Unity에서 Play를 하지않고 Tween을 해볼 수 있는 기능
+
+[정보]
+기존 NGUI 의 UITweenerEditor 스크립트를 수정
+NGUI 버전 2021.11.30
+
+[사용 방법]
+같은 버전이면 UITweenerEditor 스크립트를 덮어씌워서 사용
+다른 버전일 경우 NGUI추가 주석처리한 부분을 따로 복사해서 사용
