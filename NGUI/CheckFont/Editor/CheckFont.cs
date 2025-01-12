@@ -25,7 +25,7 @@ public class CheckFont : EditorWindow
     {
         GUILayout.BeginHorizontal();
         {
-            ComponentSelector.Draw("Font", font, OnSelectAtlas, true, GUILayout.MinWidth(80f));
+            ComponentSelector.Draw("Font", font, OnSelectFont, true, GUILayout.MinWidth(80f));
         }
         GUILayout.EndHorizontal();
 
@@ -96,7 +96,7 @@ public class CheckFont : EditorWindow
         }
     }
 
-    private void OnSelectAtlas(UnityEngine.Object obj)
+    private void OnSelectFont(UnityEngine.Object obj)
     {
         if (obj != null)
         {
