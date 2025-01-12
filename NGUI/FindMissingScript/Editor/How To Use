@@ -1,0 +1,13 @@
+
+MissisScript인 Component 를 Prefab 혹은 Hierachy Object 에서 찾아 주는 기능
+
+[사용 방법]
+Find Missing Script
+  1. 찾아볼 오브젝트를 선택 (Prefab 도 가능)
+  2. 상단 메뉴에 [NGUIExtension - Check - FindMissingScript] 클릭
+  3. Find Missing Script 버튼을 누르면 Console 창에 로그가 찍힌다.
+  4. Hierachy 에 오브젝트가 있으면 로그 클릭시 해당 오브젝트가 선택된다.
+
+Remove Missing Script
+  Find Missing Script 와 같은 방식으로 사용
+  Missing Script 컴포넌트를 제거한다.
