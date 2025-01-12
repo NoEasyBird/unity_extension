@@ -1,0 +1,4 @@
+Log 를 남기는 기능
+
+Debug.Log등을 사용할 경우 라이브에서도 로그가 남겨져 다 지워야하는 경우가 생긴다.
+따라서 LogManager 함수를 사용해 Define Symbol 로 ( DEBUG_LOG ) 남기는 로그를 껐다 켰다 할 수 있다.
