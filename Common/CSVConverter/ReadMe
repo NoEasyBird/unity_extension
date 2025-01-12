@@ -1,1 +1,5 @@
-readme
+리플렉션을 이용해 .csv 파일을 읽어서 class 로 변환하는 기능
+
+[사용 방법]
+CSV 파일을 TextAsset으로 불러와서 Read<T> 함수를 이용해 오브젝트로 변환
+csv 1행이 필드행이고 필드행을 읽어서 해당 이름의 property로 할당한다.
