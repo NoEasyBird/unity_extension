@@ -1,3 +1,6 @@
 MonoBehaviour 를 상속받는 싱글톤
 
 해당 오브젝트가 없을 경우 리소스로 오브젝트를 불러온다.
+
+16번째줄의 ResourceHelper.Load 는 AddressableResource 의 ResourceHelper 스크립트 참조
+16번째줄의 typeof(T).GetPath() 는 ResourcePath 참조
